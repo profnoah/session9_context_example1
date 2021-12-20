@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-      <StudentContext.Provider value={{ students }}>
+      <StudentContext.Provider value={{ students, changeColor }}>
         <StudentList />
       </StudentContext.Provider>
     </div>
